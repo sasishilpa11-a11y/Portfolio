@@ -1,0 +1,28 @@
+h1,h2{
+    font-family:cursive;
+    color:brown;
+    
+
+}
+.image {
+    display: block;          /* makes margin:auto work */
+    margin: 20px auto;       /* centers horizontally */
+    width: 200px;            /* you can adjust */
+    height: 200px;
+    border-radius: 50%;      /* makes it circular */
+    object-fit: cover;       /* crops image nicely */
+    
+}
+*{
+    background-color:rgb(191, 221, 213);
+}
+p{
+    font-style: italic;
+}
+#submit{
+    background-color: grey;
+    color: aliceblue;
+}
+h1{
+    text-align: center;
+}
